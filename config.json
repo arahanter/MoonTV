@@ -84,49 +84,50 @@
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
-      "new_sites": {
-    "kuyun": {
-      "api": "https://api.kuyunbo.club/api.php/provide/vod",
-      "name": "酷云资源",
-      "detail": "https://www.kuyunbo.club"
     },
-    "leduo": {
-      "api": "https://api.leduozyapi.com/api.php/provide/vod",
-      "name": "乐多资源",
-      "detail": "https://leduozyapi.com"
-    },
-    "bttwo": {
-      "api": "https://bttwo.com/api.php/provide/vod",
-      "name": "BT蚂蚁资源"
-    },
-    "nfy": {
-      "api": "https://nfyapi.com/api.php/provide/vod",
-      "name": "奈飞源"
-    },
-    "okzy": {
-      "api": "https://okzy.cc/api.php/provide/vod",
-      "name": "OK资源"
-    },
-    "auete": {
-      "api": "https://cj.auete.com/api.php/provide/vod",
-      "name": "奥特资源"
-    },
-    "baiwan": {
-      "api": "https://baiwanzy.com/api.php/provide/vod",
-      "name": "百万资源"
-    },
-    "csp": {
-      "api": "https://cspapp.cc/api.php/provide/vod",
-      "name": "CSP资源"
-    },
-    "meiju": {
-      "api": "https://meijuttapi.com/api.php/provide/vod",
-      "name": "美剧资源"
-    },
-    "fositv": {
-      "api": "https://cj.fositv.com/api.php/provide/vod",
-      "name": "佛斯资源"
-    }
+    "new_sites": {
+      "kuyun": {
+        "api": "https://api.kuyunbo.club/api.php/provide/vod",
+        "name": "酷云资源",
+        "detail": "https://www.kuyunbo.club"
+      },
+      "leduo": {
+        "api": "https://api.leduozyapi.com/api.php/provide/vod",
+        "name": "乐多资源",
+        "detail": "https://leduozyapi.com"
+      },
+      "bttwo": {
+        "api": "https://bttwo.com/api.php/provide/vod",
+        "name": "BT蚂蚁资源"
+      },
+      "nfy": {
+        "api": "https://nfyapi.com/api.php/provide/vod",
+        "name": "奈飞源"
+      },
+      "okzy": {
+        "api": "https://okzy.cc/api.php/provide/vod",
+        "name": "OK资源"
+      },
+      "auete": {
+        "api": "https://cj.auete.com/api.php/provide/vod",
+        "name": "奥特资源"
+      },
+      "baiwan": {
+        "api": "https://baiwanzy.com/api.php/provide/vod",
+        "name": "百万资源"
+      },
+      "csp": {
+        "api": "https://cspapp.cc/api.php/provide/vod",
+        "name": "CSP资源"
+      },
+      "meiju": {
+        "api": "https://meijuttapi.com/api.php/provide/vod",
+        "name": "美剧资源"
+      },
+      "fositv": {
+        "api": "https://cj.fositv.com/api.php/provide/vod",
+        "name": "佛斯资源"
+      }
     }
   }
 }
