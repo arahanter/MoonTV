@@ -1,6 +1,34 @@
 {
   "cache_time": 7200,
   "api_site": {
+    "apibdzy": {
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "name": "百度云资源"
+    },
+    "uku": {
+      "api": "https://api.ukuapi.com/api.php/provide/vod/at/xml/",
+      "name": "U酷资源"
+    },
+    "wujin": {
+      "api": "https://api.wujinapi.com/api.php/provide/vod/?ac=list",
+      "name": "无尽资源"
+    },
+    "qilin": {
+      "api": "https://www.qilinzyz.com/api.php/provide/vod/?ac=list",
+      "name": "麒麟资源"
+    },
+    "fqzy": {
+      "api": "https://api.fqzy.cc/api.php/provide/vod/?ac=list",
+      "name": "番茄资源"
+    },
+    "cckimi": {
+      "api": "https://cc.cckimi.top/api.php/provide/vod/?ac=list",
+      "name": "CC影视采集站"
+    },
+    "anltv": {
+      "api": "https://anltv.cn/api.php/provide/vod/?ac=list",
+      "name": "ANLTV资源"
+    },
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "name": "电影天堂资源",
@@ -65,10 +93,6 @@
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
       "name": "樱花资源"
     },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源"
-    },
     "wwzy": {
       "api": "https://wwzy.tv/api.php/provide/vod",
       "name": "旺旺短剧"
@@ -85,77 +109,122 @@
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
     },
-    "apibdzy": {
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "name": "百度云资源"
+    "kuyun": {
+      "api": "https://api.kuyunbo.club/api.php/provide/vod",
+      "name": "酷云资源",
+      "detail": "https://www.kuyunbo.club"
     },
-    "uku": {
-      "api": "https://api.ukuapi.com/api.php/provide/vod/at/xml/",
-      "name": "U酷资源"
+    "leduo": {
+      "api": "https://api.leduozyapi.com/api.php/provide/vod",
+      "name": "乐多资源",
+      "detail": "https://leduozyapi.com"
     },
-    "wujin2": {
-      "api": "https://api.wujinapi.com/api.php/provide/vod/?ac=list",
-      "name": "无尽资源"
+    "bttwo": {
+      "api": "https://bttwo.com/api.php/provide/vod",
+      "name": "BT蚂蚁资源"
     },
-    "qilin": {
-      "api": "https://www.qilinzyz.com/api.php/provide/vod/?ac=list",
-      "name": "麒麟资源"
+    "nfy": {
+      "api": "https://nfyapi.com/api.php/provide/vod",
+      "name": "奈飞源"
     },
-    "fqzy": {
-      "api": "https://api.fqzy.cc/api.php/provide/vod/?ac=list",
-      "name": "番茄资源"
+    "okzy": {
+      "api": "https://okzy.cc/api.php/provide/vod",
+      "name": "OK资源"
     },
-    "cckimi": {
-      "api": "https://cc.cckimi.top/api.php/provide/vod/?ac=list",
-      "name": "CC影视采集站"
+    "auete": {
+      "api": "https://cj.auete.com/api.php/provide/vod",
+      "name": "奥特资源"
     },
-    "anltv": {
-      "api": "https://anltv.cn/api.php/provide/vod/?ac=list",
-      "name": "ANLTV资源"
+    "baiwan": {
+      "api": "https://baiwanzy.com/api.php/provide/vod",
+      "name": "百万资源"
     },
-    "new_sites": {
-      "kuyun": {
-        "api": "https://api.kuyunbo.club/api.php/provide/vod",
-        "name": "酷云资源",
-        "detail": "https://www.kuyunbo.club"
-      },
-      "leduo": {
-        "api": "https://api.leduozyapi.com/api.php/provide/vod",
-        "name": "乐多资源",
-        "detail": "https://leduozyapi.com"
-      },
-      "bttwo": {
-        "api": "https://bttwo.com/api.php/provide/vod",
-        "name": "BT蚂蚁资源"
-      },
-      "nfy": {
-        "api": "https://nfyapi.com/api.php/provide/vod",
-        "name": "奈飞源"
-      },
-      "okzy": {
-        "api": "https://okzy.cc/api.php/provide/vod",
-        "name": "OK资源"
-      },
-      "auete": {
-        "api": "https://cj.auete.com/api.php/provide/vod",
-        "name": "奥特资源"
-      },
-      "baiwan": {
-        "api": "https://baiwanzy.com/api.php/provide/vod",
-        "name": "百万资源"
-      },
-      "csp": {
-        "api": "https://cspapp.cc/api.php/provide/vod",
-        "name": "CSP资源"
-      },
-      "meiju": {
-        "api": "https://meijuttapi.com/api.php/provide/vod",
-        "name": "美剧资源"
-      },
-      "fositv": {
-        "api": "https://cj.fositv.com/api.php/provide/vod",
-        "name": "佛斯资源"
-      }
+    "csp": {
+      "api": "https://cspapp.cc/api.php/provide/vod",
+      "name": "CSP资源"
+    },
+    "meiju": {
+      "api": "https://meijuttapi.com/api.php/provide/vod",
+      "name": "美剧资源"
+    },
+    "fositv": {
+      "api": "https://cj.fositv.com/api.php/provide/vod",
+      "name": "佛斯资源"
+    },
+    "kuke": {
+      "api": "https://api.kuke99.com/api.php/provide/vod",
+      "name": "酷客资源",
+      "detail": "https://www.kuke99.com"
+    },
+    "bajie": {
+      "api": "https://bajiezyapi.com/api.php/provide/vod",
+      "name": "八戒资源"
+    },
+    "aikan": {
+      "api": "https://ikan6.vip/api.php/provide/vod",
+      "name": "爱看资源"
+    },
+    "fenghuang": {
+      "api": "https://fhzyapi.com/api.php/provide/vod",
+      "name": "凤凰资源"
+    },
+    "yingshi": {
+      "api": "https://yszyapi.com/api.php/provide/vod",
+      "name": "影视资源"
+    },
+    "mogu": {
+      "api": "https://mogumv.com/api.php/provide/vod",
+      "name": "蘑菇资源"
+    },
+    "yisou": {
+      "api": "https://yisouzy.com/api.php/provide/vod",
+      "name": "一搜资源"
+    },
+    "lezhu": {
+      "api": "https://api.lezhutv.com/api.php/provide/vod",
+      "name": "乐猪资源"
+    },
+    "niux": {
+      "api": "https://api.niuxapi.com/api.php/provide/vod",
+      "name": "牛X资源"
+    },
+    "kuaikan": {
+      "api": "https://kuaikanapi.com/api.php/provide/vod",
+      "name": "快看资源"
+    },
+    "qianyi": {
+      "api": "https://qianyiapi.com/api.php/provide/vod",
+      "name": "千忆资源"
+    },
+    "yisou2": {
+      "api": "https://api.yisouapi.com/api.php/provide/vod",
+      "name": "一搜第二源"
+    },
+    "zhui": {
+      "api": "https://api.zhuimv.com/api.php/provide/vod",
+      "name": "追剧资源"
+    },
+
+    // ===== 新增高可用源 =====
+    "lgyy": {
+      "api": "https://www.lgyy.cc/api.php/provide/vod",
+      "name": "蓝光影院" // 新增源
+    },
+    "sdzy": {
+      "api": "https://shandianzy.com/api.php/provide/vod",
+      "name": "闪电资源" // 新增源
+    },
+    "appys": {
+      "api": "https://appys.xyz/api.php/provide/vod",
+      "name": "APP影视" // 新增源
+    },
+    "kankan": {
+      "api": "https://kankanzy.com/api.php/provide/vod",
+      "name": "看看资源" // 新增源
+    },
+    "wmzy": {
+      "api": "https://wmzy.tv/api.php/provide/vod",
+      "name": "完美资源" // 新增源
     }
   }
 }
