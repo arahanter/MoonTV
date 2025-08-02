@@ -85,6 +85,34 @@
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
     },
+    "apibdzy": {
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "name": "百度云资源"
+    },
+    "uku": {
+      "api": "https://api.ukuapi.com/api.php/provide/vod/at/xml/",
+      "name": "U酷资源"
+    },
+    "wujin2": {
+      "api": "https://api.wujinapi.com/api.php/provide/vod/?ac=list",
+      "name": "无尽资源"
+    },
+    "qilin": {
+      "api": "https://www.qilinzyz.com/api.php/provide/vod/?ac=list",
+      "name": "麒麟资源"
+    },
+    "fqzy": {
+      "api": "https://api.fqzy.cc/api.php/provide/vod/?ac=list",
+      "name": "番茄资源"
+    },
+    "cckimi": {
+      "api": "https://cc.cckimi.top/api.php/provide/vod/?ac=list",
+      "name": "CC影视采集站"
+    },
+    "anltv": {
+      "api": "https://anltv.cn/api.php/provide/vod/?ac=list",
+      "name": "ANLTV资源"
+    },
     "new_sites": {
       "kuyun": {
         "api": "https://api.kuyunbo.club/api.php/provide/vod",
